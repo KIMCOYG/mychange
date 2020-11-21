@@ -74,10 +74,17 @@ body {
 .bgimg1 {
   border: 0;
   padding: 0;
-  background-image: url('../assets/img/1.png');
+  background-image: url('../assets/img/back1.png');
   background-repeat: no-repeat;
-  background-position: center;
-  min-width: 100%;
+  background-position: bottom;
+  /* background-size: cover; */
+  /* min-width: 100%; */
+}
+
+.bgimg2 {
+  background-image: url('../assets/img/2.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10179,7 +10186,8 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 74px);
+  /* padding-top: calc(6rem + 74px); */
+  padding-top: 4rem;
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
